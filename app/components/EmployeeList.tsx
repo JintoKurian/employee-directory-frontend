@@ -76,7 +76,7 @@ export default function EmployeeList() {
             </tr>
           </thead>
           <tbody>
-            {filteredEmployees?.map((emp: any) => (
+            {filteredEmployees?.map((emp: Employee) => (
               <tr
                 key={emp.id}
                 className="odd:bg-white even:bg-gray-50 border-b border-gray-400"

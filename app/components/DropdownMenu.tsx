@@ -7,13 +7,6 @@ interface DropdownMenuProps {
     onSelectDepartment: (department: string) => void;
 }
 
-interface EmployeeData {
-  id: string;
-  name: string;
-  position: string;
-  department: string;
-}
-
 export default function DropdownMenu({ 
   departments, 
   selectedDepartment, 
